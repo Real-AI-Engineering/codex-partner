@@ -30,6 +30,8 @@ Delegate implementation to Codex in an isolated git worktree.
 
 5. **Capture output** and check exit code.
 
+   If Codex exits with a non-zero code, report the error to the user and offer to show the full output. Clean up the worktree regardless of success or failure.
+
 6. **Show diff:**
    ```bash
    git -C "/tmp/$BRANCH" diff HEAD
@@ -57,6 +59,7 @@ Delegate implementation to Codex in an isolated git worktree.
 8. **If merge:**
    ```bash
    git -C "/tmp/$BRANCH" add -A && git -C "/tmp/$BRANCH" commit -m "codex: <spec summary>"
+   # From your original working directory (not the worktree):
    git merge "$BRANCH"
    git worktree remove "/tmp/$BRANCH"
    ```

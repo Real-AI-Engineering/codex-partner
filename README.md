@@ -69,15 +69,15 @@ Seven guardrails that make this pattern safe and useful:
 6. **Worktree cleanup.** Always clean up after implement mode — on success, failure, or discard. Never leave orphaned worktrees.
 7. **No Codex for Codex.** Do not use Codex to review Codex output. One round only.
 
-## Detailed Mode Documentation
-
-- [Review Mode](docs/review-mode.md) — full flow, output format, filtering rules
-- [Ask Mode](docs/ask-mode.md) — debate format, two-perspectives presentation
-- [Implement Mode](docs/implement-mode.md) — worktree lifecycle, merge/discard options
-
 ## Related
 
 For agent teams patterns and multi-agent orchestration, see [teams-field-guide](https://github.com/Real-AI-Engineering/teams-field-guide).
+
+## Sources
+
+- [OpenAI Codex CLI](https://github.com/openai/codex) — Official CLI repository
+- [Codex CLI Documentation](https://platform.openai.com/docs/guides/codex) — OpenAI platform docs
+- [Multi-model verification patterns](https://github.com/Real-AI-Engineering/teams-field-guide) — Agent Teams field guide with orchestration patterns
 
 ## Contributing
 

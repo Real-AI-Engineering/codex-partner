@@ -72,7 +72,7 @@ Parse the user's input to determine mode:
    ```
    ## Two Perspectives
 
-   ### Codex (GPT)
+   ### Codex
    [Codex's answer, summarized]
 
    ### Primary AI

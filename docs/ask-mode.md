@@ -26,7 +26,7 @@ Get Codex's independent opinion for debate or second perspective.
    ```
    ## Two Perspectives
 
-   ### Codex (GPT)
+   ### Codex
    [Codex's answer, summarized]
 
    ### Primary AI
