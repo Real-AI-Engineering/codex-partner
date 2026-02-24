@@ -33,16 +33,27 @@ The human stays in control. The primary AI orchestrates and understands context.
 
 ## Install
 
-**For Claude Code users (plug-and-play):**
+**For Claude Code users (one-liner):**
 
 ```bash
-git clone https://github.com/Real-AI-Engineering/codex-partner.git ~/.claude/skills/codex-partner-repo
-ln -s ~/.claude/skills/codex-partner-repo/skills/codex-partner ~/.claude/skills/codex-partner
+git clone https://github.com/Real-AI-Engineering/codex-partner.git ~/.claude/skills/codex-partner && ln -s ~/.claude/skills/codex-partner/skills/codex-partner ~/.claude/skills/codex-partner-skill
 ```
 
-After linking, the `/codex` command is available in Claude Code sessions.
+**Verify:** restart Claude Code, then type `/codex` — the skill should activate and ask which mode you want (review, ask, or implement).
 
-**For standalone use:** Read the `docs/` directory for workflow documentation you can adapt to any AI assistant.
+**Update:**
+
+```bash
+cd ~/.claude/skills/codex-partner && git pull
+```
+
+**Uninstall:**
+
+```bash
+rm ~/.claude/skills/codex-partner-skill && rm -rf ~/.claude/skills/codex-partner
+```
+
+**For standalone use:** no install needed — read the `docs/` directory for workflow documentation you can adapt to any AI assistant.
 
 ## Three Modes
 
