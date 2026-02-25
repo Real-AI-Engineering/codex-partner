@@ -80,9 +80,14 @@ Seven guardrails that make this pattern safe and useful:
 6. **Worktree cleanup.** Always clean up after implement mode — on success, failure, or discard. Never leave orphaned worktrees.
 7. **No Codex for Codex.** Do not use Codex to review Codex output. One round only.
 
-## Related
+## See Also
 
-For agent teams patterns and multi-agent orchestration, see [teams-field-guide](https://github.com/Real-AI-Engineering/teams-field-guide).
+Other [Real-AI-Engineering](https://github.com/Real-AI-Engineering) projects:
+
+- **[sigil](https://github.com/Real-AI-Engineering/sigil)** — risk-adaptive development pipeline with adversarial code review
+- **[herald](https://github.com/Real-AI-Engineering/herald)** — daily curated news digest plugin for Claude Code
+- **[teams-field-guide](https://github.com/Real-AI-Engineering/teams-field-guide)** — comprehensive guide to Claude Code multi-agent teams
+- **[proofpack](https://github.com/Real-AI-Engineering/proofpack)** — proof-carrying CI gate for AI agent changes
 
 ## Sources
 
